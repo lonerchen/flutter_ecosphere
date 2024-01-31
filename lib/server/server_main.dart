@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ecosphere/server/page/server_home_page.dart';
 
 class ServerMainPage extends StatefulWidget {
+
   const ServerMainPage({super.key});
 
   @override
   State<ServerMainPage> createState() => _ServerMainPageState();
+
 }
 
 class _ServerMainPageState extends State<ServerMainPage> {
@@ -26,4 +28,7 @@ class _ServerMainPageState extends State<ServerMainPage> {
       home: ServerHomePage(),
     );
   }
+
+
+
 }
